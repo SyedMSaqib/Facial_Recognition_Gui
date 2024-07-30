@@ -38,3 +38,15 @@ By default, the script processes every 10th frame of the video. This setting str
 To adjust the frame processing interval, search for the frame_skip variable in the code (approximately line 90) and set it to your desired value. For example:
 frame_skip = 10  # Change this value as needed
 
+
+
+Dependencies
+
+    Python 3.x
+    facenet-pytorch
+    torchvision
+    scikit-learn
+    scipy
+    opencv-python
+    Pillow
+    Tkinter
